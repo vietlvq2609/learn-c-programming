@@ -1,0 +1,13 @@
+# 1. Ignore all files in the current directory
+*
+
+# 2. But do NOT ignore directories themselves (keeps folder structure intact)
+!*/
+
+# 3. Whitelist your source code and documentation files
+!*.c
+!*.h
+!*.md
+!.gitignore
+!Makefile
+!.vscode
